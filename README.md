@@ -1,11 +1,15 @@
-# Zenforms
+# Zenforms Pages
 
-## 1099 and other forms as a service
+## Stylesheets
 
-This is a product being built by the Assembly community. You can help push this idea forward by visiting [https://assembly.com/zenforms](https://assembly.com/zenforms).
+Styles are based on the ```Boostrap``` library, which is implemented using ```SCSS``` as a preprocessor.
 
-### How Assembly Works
+## Javascript
 
-Assembly products are like open-source and made with contributions from the community. Assembly handles the boring stuff like hosting, support, financing, legal, etc. Once the product launches we collect the revenue and split the profits amongst the contributors.
+```jQuery``` is the main javascript library, which is a dependency of ```Boostrap``` as well as other javascript frameworks which may be implemented in the future.
 
-Visit [https://assembly.com](https://assembly.com) to learn more.
+## Task Runner
+
+Tasks are run using the command line tool ```Gulp```.
+
+See ```gulpfile.js``` for  details.
