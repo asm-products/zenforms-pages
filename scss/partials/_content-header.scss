@@ -7,6 +7,7 @@
 }
 .content-breadcrumb-item {
   font-size: 3em;
+  font-weight: $headings-font-weight;
 
   &:not(:last-of-type):after {
     content: " > ";
