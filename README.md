@@ -2,7 +2,7 @@
 
 ## Stylesheets
 
-Styles are based on the ```Boostrap``` library, which is implemented using ```SCSS``` as a preprocessor.
+Styles are based on the ```Boostrap``` library, which is implemented using ```SCSS``` as a preprocessor by ```@extend```-ing the classes.
 
 ## Javascript
 
