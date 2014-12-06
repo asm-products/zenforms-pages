@@ -3,16 +3,23 @@
   margin-top: 20px;
 }
 .footer-links {
-  @include inline-list();
+  //@include inline-list();
   @extend .pull-right;
   text-align: right;
+  list-style: none;
+  text-align: center;
 
+  li {
+    float: left;
+    padding-left: 10px;
+  }
   a {
     color: inherit;
 
     &:before {
       @extend .glyphicon;
       @extend .glyphicon-envelope;
+      display:  block;
     }
   }
 }
