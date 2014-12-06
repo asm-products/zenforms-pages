@@ -1,4 +1,21 @@
 .contractor-list {
-  @extend .table;
-  @extend .table-striped;
+  //@extend .table;
+  //@extend .table-striped;
+  margin-top: 20px;
+  width: 100%;
+  border: 1px solid #E6E6E6; //Grey 3
+  border-radius: 6px;
+  th,
+  td {
+    padding: 10px;
+  }
+  th {
+    color: $brand-primary;
+  }
+  tr {
+    border: 1px solid #E6E6E6;
+    &:nth-child(2) {
+      background-color: #FAFAFA; //Grey 1
+    }
+  }
 }
