@@ -19,14 +19,14 @@
   @extend .right;
   text-align: right;
   padding: 10px 0 10px 20px;
-  border-top: 1px solid #DDD;
-  border-bottom: 1px solid #DDD;
+  border-top: 1px solid $gray;
+  border-bottom: 1px solid $gray;
 
   li {
     padding: 10px;
 
     &:not(:last-of-type) {
-      border-right: 1px solid #DDD;
+      border-right: 1px solid $gray;
     }
   }
 }
