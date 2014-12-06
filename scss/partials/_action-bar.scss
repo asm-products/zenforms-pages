@@ -21,19 +21,20 @@
   padding: 10px 20px;
   border-top: 1px solid #DDD;
   border-bottom: 1px solid #DDD;
-}
-.action-list-item {
-  padding: 10px;
 
-  &:not(:last-of-type) {
-    border-right: 1px solid #DDD;
+  li {
+    padding: 10px;
+
+    &:not(:last-of-type) {
+      border-right: 1px solid #DDD;
+    }
   }
 }
+
 .action-list-item__add,
 .action-list-item__edit,
 .action-list-item__send,
 .action-list-item__delete {
-  @extend .action-list-item;
 
   &:before {
     @extend .glyphicon;
@@ -49,6 +50,6 @@
 .action-list-item__send {
   @extend .glyphicon-envelope;
 }
-.action-list-item__delete {
+.action-list-item__delete:before {
   @extend .glyphicon-trash;
 }
