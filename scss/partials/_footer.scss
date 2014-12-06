@@ -20,10 +20,27 @@
     color: inherit;
 
     &:before {
-      @extend .glyphicon;
-      @extend .glyphicon-envelope;
       display:  block;
     }
+  }
+}
+.footer-link__help,
+.footer-link__contact {
+
+  &:before {
+    @extend .glyphicon;
+  }
+}
+.footer-link__help {
+
+  &:before {
+    @extend .glyphicon-flag;
+  }
+}
+.footer-link__contact {
+
+  &:before {
+    @extend .glyphicon-envelope;
   }
 }
 .footer-copyright {
