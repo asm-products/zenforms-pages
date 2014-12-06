@@ -50,6 +50,7 @@
 .action-list-item__send {
   @extend .glyphicon-envelope;
 }
-.action-list-item__delete:before {
+.action-list-item__delete {
+  color: $gray-darker;
   @extend .glyphicon-trash;
 }
