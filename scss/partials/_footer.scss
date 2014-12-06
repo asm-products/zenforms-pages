@@ -2,6 +2,9 @@
   color: $gray-darker;
   margin-top: 20px;
 }
+.footer-hr {
+  margin-bottom: 5px;
+}
 .footer-links {
   //@include inline-list();
   @extend .pull-right;
@@ -24,5 +27,6 @@
   }
 }
 .footer-copyright {
+  padding-top: 10px;
   text-align: center;
 }
