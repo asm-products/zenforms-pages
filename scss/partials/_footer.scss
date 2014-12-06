@@ -1,5 +1,6 @@
 .footer {
   color: $gray-darker;
+  margin-top: 20px;
 }
 .footer-links {
   @include inline-list();
