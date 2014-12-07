@@ -2,14 +2,13 @@
 
 @font-face {
   font-family: "zenforms";
-  src:url("fonts/zenforms.eot");
-  src:url("fonts/zenforms.eot?#iefix") format("embedded-opentype"),
-  url("fonts/zenforms.woff") format("woff"),
-  url("fonts/zenforms.ttf") format("truetype"),
-  url("fonts/zenforms.svg#zenforms") format("svg");
+  src:url("../fonts/zenforms.eot");
+  src:url("../fonts/zenforms.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/zenforms.woff") format("woff"),
+  url("../fonts/zenforms.ttf") format("truetype"),
+  url("../fonts/zenforms.svg#zenforms") format("svg");
   font-weight: normal;
   font-style: normal;
-
 }
 
 [data-icon]:before {
