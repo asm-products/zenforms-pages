@@ -24,6 +24,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon,
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
   font-family: "zenforms" !important;
@@ -38,44 +39,58 @@
 }
 
 .icon-check-circle:before {
+  @extend .icon;
   content: "a";
 }
 .icon-check-mark:before {
+  @extend .icon;
   content: "b";
 }
 .icon-chevron-down:before {
+  @extend .icon;
   content: "c";
 }
 .icon-chevron-left:before {
+  @extend .icon;
   content: "d";
 }
 .icon-chevron-right:before {
+  @extend .icon;
   content: "e";
 }
 .icon-chevron-up:before {
+  @extend .icon;
   content: "f";
 }
 .icon-clock:before {
+  @extend .icon;
   content: "g";
 }
 .icon-edit:before {
+  @extend .icon;
   content: "h";
 }
 .icon-error:before {
+  @extend .icon;
   content: "i";
 }
 .icon-plus:before {
+  @extend .icon;
   content: "j";
 }
 .icon-search:before {
+  @extend .icon;
   content: "k";
 }
 .icon-send-doc:before {
+  @extend .icon;
   content: "l";
 }
 .icon-send-mail:before {
+  @extend .icon;
   content: "m";
 }
 .icon-trash-can:before {
+  @extend .icon;
   content: "n";
 }
