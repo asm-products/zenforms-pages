@@ -18,29 +18,26 @@
   }
   a {
     color: inherit;
-
-    &:before {
-      display:  block;
-    }
   }
 }
 .footer-link__help,
 .footer-link__contact {
 
   &:before {
-    @extend .glyphicon;
+    display:  block;
+    font-size: 1.8em;
   }
 }
 .footer-link__help {
 
   &:before {
-    @extend .glyphicon-flag;
+    @extend .icon-send-doc;
   }
 }
 .footer-link__contact {
 
   &:before {
-    @extend .glyphicon-envelope;
+    @extend .icon-send-doc;
   }
 }
 .footer-copyright {
