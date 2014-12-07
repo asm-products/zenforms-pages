@@ -22,9 +22,9 @@
 }
 .footer-link__help,
 .footer-link__contact {
-
+  @extend .icon-block;
+  
   &:before {
-    display:  block;
     font-size: 1.8em;
   }
 }

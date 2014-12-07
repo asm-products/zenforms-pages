@@ -38,6 +38,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-block:before {
+  display: block;
+}
+
 .icon-check-circle:before {
   @extend .icon;
   content: "a";
