@@ -9,8 +9,7 @@
   padding: 12px;
 
   &:before {
-    @extend .glyphicon;
-    @extend .glyphicon-send;
+    @extend .icon-send-mail;
     padding-right: 5px;
   }
 }
@@ -37,20 +36,19 @@
 .action-list-item__delete {
 
   &:before {
-    @extend .glyphicon;
     padding-right: 5px;
   }
 }
 .action-list-item__add {
-  @extend .glyphicon-plus;
+  @extend .icon-plus;
 }
 .action-list-item__edit {
-  @extend .glyphicon-pencil;
+  @extend .icon-edit;
 }
 .action-list-item__send {
-  @extend .glyphicon-envelope;
+  @extend .icon-send-doc;
 }
 .action-list-item__delete {
   color: $gray-darker;
-  @extend .glyphicon-trash;
+  @extend .icon-trash-can;
 }
