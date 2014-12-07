@@ -19,3 +19,35 @@
     }
   }
 }
+.contractor-status__recieved,
+.contractor-status__not-recieved,
+.contractor-status__pending {
+  @extend .icon-block;
+  font-size: .8em;
+
+  &:before {
+    font-size: 2em;
+  }
+}
+.contractor-status__recieved {
+  @extend .icon-check-circle;
+  color: $brand-success;
+}
+.contractor-status__not-recieved {
+  @extend .icon-clock;
+  color: $gray-darker;
+}
+.contractor-status__pending {
+  @extend .icon-clock;
+  color: $brand-warning;
+}
+.contractor-status__sent,
+.contractor-status__not-sent {
+
+}
+.contractor-status__sent {
+
+}
+.contractor-status__not-sent {
+
+}
