@@ -10,3 +10,17 @@
     }
   }
 }
+
+@mixin status-dot($color) {
+  color: $color;
+
+  &:before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    background-color: $color;
+    border-radius: 50%;
+  }
+}

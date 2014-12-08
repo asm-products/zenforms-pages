@@ -51,14 +51,10 @@
   @extend .contractor-status;
   font-size: .8em;
   text-align: left;
-
-  &:before {
-    content: "() ";
-  }
 }
 .contractor-status__sent {
-
+  @include status-dot($brand-success);
 }
 .contractor-status__not-sent {
-
+  @include status-dot($gray-darker);
 }
