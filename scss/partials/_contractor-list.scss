@@ -39,7 +39,7 @@
   color: $brand-success;
 }
 .contractor-status__not-recieved {
-  @extend .icon-clock;
+  @extend .icon-error;
   color: $gray-darker;
 }
 .contractor-status__pending {
