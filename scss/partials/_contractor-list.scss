@@ -19,9 +19,13 @@
     }
   }
 }
+.contractor-status {
+  text-align: center;
+}
 .contractor-status__recieved,
 .contractor-status__not-recieved,
 .contractor-status__pending {
+  @extend .contractor-status;
   @extend .icon-block;
   font-size: .8em;
 
