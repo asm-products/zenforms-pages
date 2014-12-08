@@ -21,6 +21,7 @@
 }
 .contractor-status {
   text-align: center;
+  width: 10%;
 }
 .contractor-status__recieved,
 .contractor-status__not-recieved,
@@ -47,7 +48,13 @@
 }
 .contractor-status__sent,
 .contractor-status__not-sent {
+  @extend .contractor-status;
+  font-size: .8em;
+  text-align: left;
 
+  &:before {
+    content: "() ";
+  }
 }
 .contractor-status__sent {
 
