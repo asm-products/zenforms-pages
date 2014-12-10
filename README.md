@@ -1,5 +1,7 @@
 # Zenforms Pages
 
+<a href="https://assembly.com/zenforms/bounties"><img src="http://badger.asm.co/zenforms/badges/tasks.svg" height="24px" alt="Open Tasks" /></a>
+
 ## Stylesheets
 
 Styles are based on the ```Boostrap``` library, which is implemented using ```SCSS``` as a preprocessor by ```@extend```-ing the classes.
