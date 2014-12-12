@@ -18,7 +18,8 @@
   }
   tr {
     border: 1px solid $gray;
-    &:nth-child(2) {
+
+    &:nth-child(even) {
       background-color: $gray-lighter; //Grey 1
     }
   }
