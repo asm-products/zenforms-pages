@@ -3,6 +3,7 @@
   //@extend .table-striped;
   margin-top: 20px;
   width: 100%;
+  border-collapse: separate;
   border: 1px solid $gray;
   border-radius: 6px;
   th,
@@ -11,6 +12,9 @@
   }
   th {
     color: $brand-primary;
+  }
+  td {
+    border-top: 1px solid $gray;
   }
   tr {
     border: 1px solid $gray;
