@@ -8,7 +8,7 @@
 
 ### Contractor List
 
-![Contractor List](/screenshot_contractorList.png?raw=true "Contractor List")
+![Contractor List](/screenshots/contractor-list.png?raw=true "Contractor List")
 
 ## Stylesheets
 
