@@ -1,3 +1,9 @@
+@mixin wrapper($width: $wrapper-width) {
+  width: $width;
+  max-width: 100%;
+  margin: auto;
+}
+
 @mixin inline-list($margin: 0) {
   margin: 0;
   padding: 0;
