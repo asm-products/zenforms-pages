@@ -1,18 +1,19 @@
 .signup {
-
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .signup-label {
   color: $gray-base;
+  margin: 0;
 }
 .signup-email {
   display: block;
   width: 100%;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-size: 1.4em;
   outline: 0;
   border: 0;
-  border-bottom: 2px solid $gray-base;
+  border-bottom: 1.5px solid $gray-base;
 }
 .signup-submit {
   @extend .btn;
