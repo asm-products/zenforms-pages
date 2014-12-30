@@ -1,4 +1,10 @@
+# Node Stuff
 node_modules
+
+# Thumbs.db Stuff
 Thumbs.db
 */Thumbs.db
+
+# Compiled Stylesheets
 css/style.css
+css/landing-page.css
