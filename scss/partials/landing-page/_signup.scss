@@ -14,5 +14,7 @@
   border-bottom: 2px solid $gray-base;
 }
 .signup-submit {
-
+  @extend .btn;
+  @extend .btn-block;
+  @extend .btn-success;
 }
