@@ -5,3 +5,8 @@
     background-color: #DDD;
   }
 }
+
+.hero-section,
+.steps-section {
+  @extend .section;
+}
