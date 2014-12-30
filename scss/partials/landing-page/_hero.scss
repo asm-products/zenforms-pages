@@ -35,9 +35,19 @@
   font-size: 1.4em;
 }
 
-.hero-pricing {
+.hero-pricing,
+.hero-next {
   display: block;
   color: $gray-base;
-  text-align: center;
+}
+
+.hero-pricing {
   text-transform: Uppercase;
+}
+
+.hero-next {
+  position: absolute;
+  right: 0; bottom: 0; left: 0;
+  font-size: 2em;
+  transform: rotate(180deg);
 }
