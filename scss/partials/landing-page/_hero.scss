@@ -1,0 +1,29 @@
+.hero {
+  height: 500px;
+
+  &:before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0; right: 0; left: 0;
+    height: 50px;
+    background-image:
+      linear-gradient(
+      to bottom,
+      $brand-primary,
+      white
+    );
+  }
+}
+
+.hero-logo {
+  display: block;
+  width: 150px;
+  height: auto;
+  margin: auto;
+}
+
+.hero-text {
+  color: $brand-primary;
+  font-weight: 300;
+}
