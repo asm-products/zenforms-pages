@@ -25,16 +25,14 @@
   margin: auto;
 }
 
-.hero-text,
+.hero-header,
 .hero-pricing,
 .hero-next {
   text-align: center;
 }
 
-.hero-text {
-  color: $brand-primary;
-  font-weight: 400;
-  font-size: 1.4em;
+.hero-header {
+  @extend .section-header;
 }
 
 .hero-pricing,

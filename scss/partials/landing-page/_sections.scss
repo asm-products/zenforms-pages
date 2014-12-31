@@ -12,3 +12,9 @@
 .questions-section {
   @extend .section;
 }
+
+.section-header {
+  color: $brand-primary;
+  font-weight: 400;
+  font-size: 1.4em;
+}
