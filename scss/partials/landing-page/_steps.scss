@@ -1,9 +1,98 @@
-.steps-grid {
+$break-point: 500px;
+.steps-section {
 
 }
-.steps-header {
 
+.steps-header {
+  @extend .section-header;
+  margin-bottom: 40px;
+}
+.steps-timeline {
+  @include clearfix();
+  margin-bottom: 20px;
+
+  @media screen and (max-width: $break-point) {
+    border-left: 2px solid $brand-primary;
+    margin-left: 25px;
+  }
+
+  @media screen and (min-width: $break-point) {
+    border-top: 2px solid $brand-primary;
+    padding-top: 20px;
+    margin-top: 40px;
+    margin-left: 16.65%;
+    margin-right: 16.65%;
+  }
+}
+.steps-upload,
+.steps-collect,
+.steps-mail {
+
+  @media screen and (max-width: $break-point) {
+    margin-left: -25px;
+  }
+
+  @media screen and (min-width: $break-point) {
+    float: left;
+    width: 33%;
+    margin-top: -50px;
+  }
+}
+.steps-upload,
+.steps-collect {
+  @media screen and (max-width: $break-point) {
+    padding-bottom: 40px;
+  }
+}
+.steps-upload {
+  @media screen and (min-width: $break-point) {
+    margin-left: -16.65%;
+    margin-right: 16.65%;
+  }
+}
+.steps-collect {
+
+}
+.steps-mail {
+  @media screen and (max-width: $break-point) {
+    margin-bottom: -100%;
+  }
+  @media screen and (min-width: $break-point) {
+    margin-left: 16.65%;
+    margin-right: -16.65%;
+  }
+}
+
+.steps-img {
+  display: block;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  @media screen and (max-width: $break-point) {
+    float: left;
+    margin-right: 20px;
+  }
+}
+
+.steps-name,
+.steps-description {
+  margin: 0;
+}
+.steps-name {
+  color: $brand-primary;
+  font-weight: 400;
+  font-size: 1.4em;
+
+  @media screen and (min-width: $break-point) {
+    text-align: center;
+  }
 }
 .steps-description {
+  overflow: hidden;
 
+  @media screen and (min-width: $break-point) {
+    text-align: center;
+  }
 }
