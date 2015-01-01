@@ -1,3 +1,11 @@
+@mixin clearfix() {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
 @mixin wrapper($width: $wrapper-width) {
   width: $width;
   max-width: 100%;
