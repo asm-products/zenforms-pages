@@ -1,4 +1,3 @@
-$break-point: 500px;
 .steps-section {
 
 }
@@ -11,12 +10,12 @@ $break-point: 500px;
   @include clearfix();
   margin-bottom: 20px;
 
-  @media screen and (max-width: $break-point) {
+  @media screen and (max-width: $break-steps) {
     border-left: 2px solid $brand-primary;
     margin-left: 25px;
   }
 
-  @media screen and (min-width: $break-point) {
+  @media screen and (min-width: $break-steps) {
     border-top: 2px solid $brand-primary;
     padding-top: 20px;
     margin-top: 40px;
@@ -28,11 +27,11 @@ $break-point: 500px;
 .steps-collect,
 .steps-mail {
 
-  @media screen and (max-width: $break-point) {
+  @media screen and (max-width: $break-steps) {
     margin-left: -25px;
   }
 
-  @media screen and (min-width: $break-point) {
+  @media screen and (min-width: $break-steps) {
     float: left;
     width: 33%;
     margin-top: -50px;
@@ -40,12 +39,12 @@ $break-point: 500px;
 }
 .steps-upload,
 .steps-collect {
-  @media screen and (max-width: $break-point) {
+  @media screen and (max-width: $break-steps) {
     padding-bottom: 40px;
   }
 }
 .steps-upload {
-  @media screen and (min-width: $break-point) {
+  @media screen and (min-width: $break-steps) {
     margin-left: -16.65%;
     margin-right: 16.65%;
   }
@@ -54,10 +53,10 @@ $break-point: 500px;
 
 }
 .steps-mail {
-  @media screen and (max-width: $break-point) {
+  @media screen and (max-width: $break-steps) {
     margin-bottom: -100%;
   }
-  @media screen and (min-width: $break-point) {
+  @media screen and (min-width: $break-steps) {
     margin-left: 16.65%;
     margin-right: -16.65%;
   }
@@ -70,7 +69,7 @@ $break-point: 500px;
   height: 50px;
   border-radius: 50%;
 
-  @media screen and (max-width: $break-point) {
+  @media screen and (max-width: $break-steps) {
     float: left;
     margin-right: 20px;
   }
@@ -86,14 +85,14 @@ $break-point: 500px;
   font-weight: 400;
   font-size: 1.2em;
 
-  @media screen and (min-width: $break-point) {
+  @media screen and (min-width: $break-steps) {
     text-align: center;
   }
 }
 .steps-description {
   overflow: hidden;
 
-  @media screen and (min-width: $break-point) {
+  @media screen and (min-width: $break-steps) {
     text-align: center;
   }
 }
