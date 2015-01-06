@@ -4,11 +4,10 @@
 
 1099 and other forms as a service
 
-## Screenshots
+## Pages
 
-### Contractor List
-
-![Contractor List](/screenshots/contractor-list.png?raw=true "Contractor List")
+- Contractor List
+- Landing Page
 
 ## Stylesheets
 
