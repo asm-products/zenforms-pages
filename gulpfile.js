@@ -29,11 +29,11 @@ gulp.task('scripts', function() {
   return gulp.src('js/*.js')
   .pipe(concat('all.js'))
   .on('error', swallowError)
-  .pipe(gulp.dest('dist'))
+  .pipe(gulp.dest('js'))
   .pipe(rename('all.min.js'))
   .pipe(uglify())
   .on('error', swallowError)
-  .pipe(gulp.dest('dist'));
+  .pipe(gulp.dest('js'));
 });
 
 // Watch Files For Changes
