@@ -1,0 +1,23 @@
+.questions-section {
+  text-align: center;
+}
+.questions-header {
+  @extend .section-header;
+  margin-bottom: 20px;
+}
+.questions-icon-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+
+  li {
+    display: inline;
+  }
+}
+.questions-icon {
+  color: $brand-primary;
+}
+.questions-copyright {
+  color: $gray-base;
+}
