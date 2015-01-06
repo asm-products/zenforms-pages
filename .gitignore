@@ -1,3 +1,6 @@
+#IDE Stuff
+.idea/
+
 # Node Stuff
 node_modules
 
