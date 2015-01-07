@@ -4,11 +4,12 @@
   font-family: "zenforms";
   src:url("../fonts/zenforms.eot");
   src:url("../fonts/zenforms.eot?#iefix") format("embedded-opentype"),
-  url("../fonts/zenforms.woff") format("woff"),
-  url("../fonts/zenforms.ttf") format("truetype"),
-  url("../fonts/zenforms.svg#zenforms") format("svg");
+    url("../fonts/zenforms.woff") format("woff"),
+    url("../fonts/zenforms.ttf") format("truetype"),
+    url("../fonts/zenforms.svg#zenforms") format("svg");
   font-weight: normal;
   font-style: normal;
+
 }
 
 [data-icon]:before {
@@ -38,63 +39,63 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-block:before {
-  display: block;
-}
-
-.icon-check-circle:before {
-  @extend .icon;
-  content: "a";
-}
-.icon-check-mark:before {
-  @extend .icon;
-  content: "b";
-}
 .icon-chevron-down:before {
-  @extend .icon;
   content: "c";
 }
 .icon-chevron-left:before {
-  @extend .icon;
   content: "d";
 }
 .icon-chevron-right:before {
-  @extend .icon;
   content: "e";
 }
 .icon-chevron-up:before {
-  @extend .icon;
   content: "f";
 }
+.icon-check-circle:before {
+  content: "a";
+}
+.icon-check-mark:before {
+  content: "b";
+}
 .icon-clock:before {
-  @extend .icon;
   content: "g";
 }
 .icon-edit:before {
-  @extend .icon;
   content: "h";
 }
-.icon-error:before {
-  @extend .icon;
+.icon-envelope-outline:before {
   content: "i";
 }
-.icon-plus:before {
-  @extend .icon;
+.icon-envelope-stack:before {
   content: "j";
 }
-.icon-search:before {
-  @extend .icon;
+.icon-error:before {
   content: "k";
 }
-.icon-send-doc:before {
-  @extend .icon;
+.icon-facebook-outline:before {
   content: "l";
 }
-.icon-send-mail:before {
-  @extend .icon;
+.icon-plus:before {
   content: "m";
 }
-.icon-trash-can:before {
-  @extend .icon;
+.icon-search:before {
   content: "n";
+}
+.icon-send-doc:before {
+  content: "o";
+}
+.icon-send-mail:before {
+  content: "p";
+}
+.icon-trash-can:before {
+  content: "q";
+}
+.icon-twitter-outline:before {
+  content: "r";
+}
+.icon-upload:before {
+  content: "s";
+}
+.icon-user-group:before {
+  content: "t";
 }

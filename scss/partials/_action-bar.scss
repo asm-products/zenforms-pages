@@ -9,7 +9,8 @@
   padding: 12px;
 
   &:before {
-    @extend .icon-send-mail;
+    @extend .icon;
+    @extend .icon-envelope-stack;
     padding-right: 5px;
   }
 }
@@ -36,6 +37,7 @@
 .action-list-item__delete {
 
   &:before {
+    @extend .icon;
     padding-right: 5px;
   }
 }

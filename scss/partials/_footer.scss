@@ -22,22 +22,23 @@
 }
 .footer-link__help,
 .footer-link__contact {
-  @extend .icon-block;
   
   &:before {
+    @extend .icon;
+    display: block;
     font-size: 1.8em;
   }
 }
 .footer-link__help {
 
   &:before {
-    @extend .icon-send-doc;
+    @extend .icon-envelope-outline;
   }
 }
 .footer-link__contact {
 
   &:before {
-    @extend .icon-send-doc;
+    @extend .icon-envelope-outline;
   }
 }
 .footer-copyright {
