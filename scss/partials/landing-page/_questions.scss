@@ -13,10 +13,13 @@
 
   li {
     display: inline;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 .questions-icon {
   color: $brand-primary;
+  font-size: 3.5em;
 }
 .questions-copyright {
   color: $gray-base;

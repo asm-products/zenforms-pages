@@ -4,7 +4,7 @@
 
 .steps-header {
   @extend .section-header;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 .steps-timeline {
   @include clearfix();
@@ -18,7 +18,7 @@
   @media screen and (min-width: $break-steps) {
     border-top: 2px solid $brand-primary;
     padding-top: 20px;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-left: 16.65%;
     margin-right: 16.65%;
   }
@@ -28,19 +28,19 @@
 .steps-mail {
 
   @media screen and (max-width: $break-steps) {
-    margin-left: -25px;
+    margin-left: -40px;
   }
 
   @media screen and (min-width: $break-steps) {
     float: left;
     width: 33%;
-    margin-top: -50px;
+    margin-top: -60px;
   }
 }
 .steps-upload,
 .steps-collect {
   @media screen and (max-width: $break-steps) {
-    padding-bottom: 40px;
+    padding-bottom: 60px;
   }
 }
 .steps-upload {
@@ -65,9 +65,14 @@
 .steps-img {
   display: block;
   margin: auto;
-  width: 50px;
-  height: 50px;
+  width: 75px;
+  height: 75px;
   border-radius: 50%;
+  font-size: 3.5em;
+  background-color: $brand-primary;
+  text-align: center;
+  color: white;
+  padding-top: 15px;
 
   @media screen and (max-width: $break-steps) {
     float: left;
