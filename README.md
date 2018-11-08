@@ -18,7 +18,7 @@ Front-facing classes should not be ```Bootstrap``` classes.
 
 ## Icons
 
-A custom font ("zenforms", by [@davecrow](https://assembly.com/users/davecrow)) is used an an icon font for the project.
+A custom font ("zenforms", by [@davecrow](https://assembly.com/users/davecrow)) is used as an icon font for the project.
 
 ## Javascript
 
